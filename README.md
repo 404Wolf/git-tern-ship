@@ -1,13 +1,1 @@
-# {{-cookiecutter.package_name-}}
-
-To install dependencies:
-
-```bash
-bun install
-```
-
-To run:
-
-```bash
-bun run index.ts
-```
+Project to scrape github repos, find all contributors, scrape their profiles, find where they work, and then create a json of companies.
