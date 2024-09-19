@@ -1,0 +1,20 @@
+{
+  "name": "git-tern-ship",
+  "module": "index.ts",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "Github repo scraper to find companies offering internships",
+  "scripts": {
+    "run": "bun run ./src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "octokit": "^4.0.2",
+    "openai": "^4.62.1"
+  }
+}
